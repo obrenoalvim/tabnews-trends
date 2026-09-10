@@ -27,4 +27,5 @@ export interface TrendsData {
   nodes: TrendNode[];
   edges: TrendEdge[];
   trending: TrendingEntry[];
+  insights: string[];
 }

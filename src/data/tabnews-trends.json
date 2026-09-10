@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T01:36:23.768Z",
+  "generatedAt": "2026-09-10T02:09:04.559Z",
   "postsAnalyzed": 30890,
   "nodes": [
     {
@@ -1643,5 +1643,11 @@
   "dateRange": {
     "from": "2022-05-06T18:11:22.451Z",
     "to": "2026-09-10T00:17:11.093Z"
-  }
+  },
+  "insights": [
+    "IA/LLM segue dominando o volume (2168 posts), mas perdeu força: -47% nos últimos 2 meses vs. os 2 anteriores.",
+    "JavaScript voltou a aparecer com mais força: foi de 4 pra 8 posts no mesmo intervalo (+100%).",
+    "CI/CD, PostgreSQL, VSCode têm o maior retorno em tabcoins por post — nicho valorizado mesmo com menos gente falando.",
+    "React e React Native aparecem juntos com frequência (89 posts citam os dois) — quem fala de um tende a falar do outro."
+  ]
 }

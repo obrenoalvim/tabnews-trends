@@ -178,6 +178,58 @@ function buildGraph(posts) {
   };
 }
 
+// Nomes que compartilham o mesmo "assunto guarda-chuva" — a co-ocorrência entre
+// eles é tautológica (falar de ChatGPT É falar de IA), não uma descoberta real.
+const AI_FAMILY = new Set(['IA/LLM', 'ChatGPT', 'Claude', 'Copilot']);
+
+function computeInsights({ nodes, edges, trending }) {
+  const insights = [];
+  const byId = new Map(nodes.map((n) => [n.id, n]));
+
+  const leader = [...nodes].sort((a, b) => b.count - a.count)[0];
+  if (leader) {
+    const leaderTrend = trending.find((t) => t.label === leader.label);
+    if (leaderTrend) {
+      const direction = leaderTrend.growthPct >= 0 ? 'ganhou força' : 'perdeu força';
+      insights.push(
+        `${leader.label} segue dominando o volume (${leader.count} posts), mas ${direction}: ${leaderTrend.growthPct >= 0 ? '+' : ''}${leaderTrend.growthPct}% nos últimos 2 meses vs. os 2 anteriores.`,
+      );
+    } else {
+      insights.push(`${leader.label} domina o volume com ${leader.count} posts.`);
+    }
+  }
+
+  const riser = trending
+    .filter((t) => t.growthPct > 0 && t.label !== leader?.label && t.recentCount + t.previousCount >= 6)
+    .sort((a, b) => b.growthPct - a.growthPct)[0];
+  if (riser) {
+    insights.push(
+      `${riser.label} voltou a aparecer com mais força: foi de ${riser.previousCount} pra ${riser.recentCount} posts no mesmo intervalo (+${riser.growthPct}%).`,
+    );
+  }
+
+  const byValuePerPost = nodes
+    .filter((n) => n.count >= 10)
+    .map((n) => ({ label: n.label, perPost: n.tabcoins / n.count }))
+    .sort((a, b) => b.perPost - a.perPost)
+    .slice(0, 3);
+  if (byValuePerPost.length >= 2) {
+    const names = byValuePerPost.map((n) => n.label).join(', ');
+    insights.push(`${names} têm o maior retorno em tabcoins por post — nicho valorizado mesmo com menos gente falando.`);
+  }
+
+  const topPairing = [...edges]
+    .filter((e) => !(AI_FAMILY.has(e.source) && AI_FAMILY.has(e.target)))
+    .sort((a, b) => b.weight - a.weight)[0];
+  if (topPairing && byId.has(topPairing.source) && byId.has(topPairing.target)) {
+    insights.push(
+      `${byId.get(topPairing.source).label} e ${byId.get(topPairing.target).label} aparecem juntos com frequência (${topPairing.weight} posts citam os dois) — quem fala de um tende a falar do outro.`,
+    );
+  }
+
+  return insights;
+}
+
 async function main() {
   const forceRefresh = process.argv.includes('--refresh');
   let posts = forceRefresh ? null : await loadCache();
@@ -194,10 +246,13 @@ async function main() {
   const graph = buildGraph(posts);
   console.log(`Keywords com sinal: ${graph.nodes.length}, conexoes: ${graph.edges.length}`);
 
+  const insights = computeInsights(graph);
+
   const data = {
     generatedAt: new Date().toISOString(),
     postsAnalyzed: posts.length,
     ...graph,
+    insights,
   };
 
   await writeFile(OUTPUT_FILE, JSON.stringify(data, null, 2), 'utf-8');

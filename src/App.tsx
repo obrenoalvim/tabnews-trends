@@ -1,5 +1,6 @@
 import data from './data/tabnews-trends.json';
 import { GraphCanvas } from './components/GraphCanvas';
+import { InsightCard } from './components/InsightCard';
 import { StatBar } from './components/StatBar';
 import { TrendingPanel } from './components/TrendingPanel';
 import type { TrendsData } from './types';
@@ -33,9 +34,10 @@ export default function App() {
           <GraphCanvas nodes={trends.nodes} edges={trends.edges} />
         </section>
 
-        <aside className="min-h-0 overflow-y-auto">
+        <aside className="min-h-0 space-y-4 overflow-y-auto">
+          <InsightCard insights={trends.insights} />
           <TrendingPanel entries={trends.trending} />
-          <p className="mt-4 px-1 font-mono text-[11px] leading-relaxed text-paper-dim">
+          <p className="px-1 font-mono text-[11px] leading-relaxed text-paper-dim">
             extraído do título dos posts (heurística por palavra-chave, não NLP). tamanho do nó = nº de posts
             mencionando o termo. espessura da conexão = nº de posts que citam os dois termos juntos.
           </p>
