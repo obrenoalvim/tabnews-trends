@@ -2,6 +2,8 @@
 
 Grafo interativo das tecnologias mais mencionadas no [TabNews](https://www.tabnews.com.br/), extraído do histórico completo de posts via API pública.
 
+![screenshot do grafo](docs/screenshot.jpg)
+
 ## Rodando local
 
 ```bash
