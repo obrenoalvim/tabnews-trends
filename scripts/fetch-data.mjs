@@ -8,6 +8,7 @@ const MAX_PAGES = Number(process.env.MAX_PAGES) || Infinity; // dev override for
 const REQUEST_DELAY_MS = 400;
 const MAX_RETRIES = 6;
 const CACHE_FILE = new URL('../posts-cache.json', import.meta.url);
+const BODIES_CACHE_FILE = new URL('../bodies-cache.json', import.meta.url);
 const OUTPUT_FILE = new URL('../src/data/tabnews-trends.json', import.meta.url);
 const CACHE_MAX_AGE_MS = 6 * 60 * 60 * 1000; // ponytail: dumb time-based cache, not real invalidation
 
@@ -97,7 +98,7 @@ function monthKey(isoDate) {
   return isoDate.slice(0, 7); // YYYY-MM
 }
 
-function buildGraph(posts) {
+function buildGraph(posts, bodies = {}) {
   const nodeCounts = new Map();
   const nodeTabcoins = new Map();
   const edgeCounts = new Map();
@@ -109,7 +110,8 @@ function buildGraph(posts) {
   for (const post of posts) {
     if (!post.title || !post.published_at) continue;
 
-    const matched = [...matchKeywords(post.title)];
+    const text = bodies[post.id] ? `${post.title} ${bodies[post.id]}` : post.title;
+    const matched = [...matchKeywords(text)];
     if (!matched.length) continue;
 
     const month = monthKey(post.published_at);
@@ -182,6 +184,11 @@ function buildGraph(posts) {
 // eles é tautológica (falar de ChatGPT É falar de IA), não uma descoberta real.
 const AI_FAMILY = new Set(['IA/LLM', 'ChatGPT', 'Claude', 'Copilot']);
 
+function joinNatural(items) {
+  if (items.length <= 1) return items.join('');
+  return `${items.slice(0, -1).join(', ')} e ${items[items.length - 1]}`;
+}
+
 function computeInsights({ nodes, edges, trending }) {
   const insights = [];
   const byId = new Map(nodes.map((n) => [n.id, n]));
@@ -190,12 +197,10 @@ function computeInsights({ nodes, edges, trending }) {
   if (leader) {
     const leaderTrend = trending.find((t) => t.label === leader.label);
     if (leaderTrend) {
-      const direction = leaderTrend.growthPct >= 0 ? 'ganhou força' : 'perdeu força';
-      insights.push(
-        `${leader.label} segue dominando o volume (${leader.count} posts), mas ${direction}: ${leaderTrend.growthPct >= 0 ? '+' : ''}${leaderTrend.growthPct}% nos últimos 2 meses vs. os 2 anteriores.`,
-      );
+      const verb = leaderTrend.growthPct >= 0 ? 'cresceu' : 'caiu';
+      insights.push(`${leader.label} lidera o volume (${leader.count} posts) e ${verb} ${Math.abs(leaderTrend.growthPct)}% no bimestre.`);
     } else {
-      insights.push(`${leader.label} domina o volume com ${leader.count} posts.`);
+      insights.push(`${leader.label} lidera o volume (${leader.count} posts).`);
     }
   }
 
@@ -203,9 +208,7 @@ function computeInsights({ nodes, edges, trending }) {
     .filter((t) => t.growthPct > 0 && t.label !== leader?.label && t.recentCount + t.previousCount >= 6)
     .sort((a, b) => b.growthPct - a.growthPct)[0];
   if (riser) {
-    insights.push(
-      `${riser.label} voltou a aparecer com mais força: foi de ${riser.previousCount} pra ${riser.recentCount} posts no mesmo intervalo (+${riser.growthPct}%).`,
-    );
+    insights.push(`${riser.label} cresceu no bimestre: de ${riser.previousCount} pra ${riser.recentCount} posts (+${riser.growthPct}%).`);
   }
 
   const byValuePerPost = nodes
@@ -214,17 +217,17 @@ function computeInsights({ nodes, edges, trending }) {
     .sort((a, b) => b.perPost - a.perPost)
     .slice(0, 3);
   if (byValuePerPost.length >= 2) {
-    const names = byValuePerPost.map((n) => n.label).join(', ');
-    insights.push(`${names} têm o maior retorno em tabcoins por post — nicho valorizado mesmo com menos gente falando.`);
+    const names = joinNatural(byValuePerPost.map((n) => n.label));
+    insights.push(`${names}: menos posts, mais tabcoins por post.`);
   }
 
   const topPairing = [...edges]
     .filter((e) => !(AI_FAMILY.has(e.source) && AI_FAMILY.has(e.target)))
     .sort((a, b) => b.weight - a.weight)[0];
   if (topPairing && byId.has(topPairing.source) && byId.has(topPairing.target)) {
-    insights.push(
-      `${byId.get(topPairing.source).label} e ${byId.get(topPairing.target).label} aparecem juntos com frequência (${topPairing.weight} posts citam os dois) — quem fala de um tende a falar do outro.`,
-    );
+    const a = byId.get(topPairing.source).label;
+    const b = byId.get(topPairing.target).label;
+    insights.push(`${a} e ${b} aparecem juntos em ${topPairing.weight} posts: quem cita um, cita o outro.`);
   }
 
   return insights;
@@ -243,7 +246,16 @@ async function main() {
     await saveCache(posts);
   }
 
-  const graph = buildGraph(posts);
+  let bodyMap = {};
+  try {
+    bodyMap = JSON.parse(await readFile(BODIES_CACHE_FILE, 'utf-8'));
+  } catch {
+    // sem bodies coletados ainda, roda "npm run fetch:bodies" pra melhorar a precisão
+  }
+  const bodyCount = Object.keys(bodyMap).length;
+  if (bodyCount > 0) console.log(`Usando body de ${bodyCount} posts (fetch:bodies) alem do titulo.`);
+
+  const graph = buildGraph(posts, bodyMap);
   console.log(`Keywords com sinal: ${graph.nodes.length}, conexoes: ${graph.edges.length}`);
 
   const insights = computeInsights(graph);

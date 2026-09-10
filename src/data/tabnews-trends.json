@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-09-10T02:09:04.559Z",
+  "generatedAt": "2026-09-10T02:18:48.783Z",
   "postsAnalyzed": 30890,
   "nodes": [
     {
       "id": "Git",
       "label": "Git",
-      "count": 190,
-      "tabcoins": 1067
+      "count": 192,
+      "tabcoins": 1093
     },
     {
       "id": "GitHub",
       "label": "GitHub",
-      "count": 424,
-      "tabcoins": 2469
+      "count": 437,
+      "tabcoins": 2861
     },
     {
       "id": "IA/LLM",
       "label": "IA/LLM",
-      "count": 2168,
-      "tabcoins": 6347
+      "count": 2170,
+      "tabcoins": 6364
     },
     {
       "id": "ChatGPT",
@@ -35,8 +35,8 @@
     {
       "id": "JavaScript",
       "label": "JavaScript",
-      "count": 498,
-      "tabcoins": 1945
+      "count": 509,
+      "tabcoins": 2032
     },
     {
       "id": "CI/CD",
@@ -47,8 +47,8 @@
     {
       "id": "Golang",
       "label": "Golang",
-      "count": 48,
-      "tabcoins": 190
+      "count": 49,
+      "tabcoins": 202
     },
     {
       "id": "Rust",
@@ -59,38 +59,38 @@
     {
       "id": "Linux",
       "label": "Linux",
-      "count": 402,
-      "tabcoins": 1730
+      "count": 403,
+      "tabcoins": 1731
     },
     {
       "id": "PHP",
       "label": "PHP",
-      "count": 220,
-      "tabcoins": 831
+      "count": 225,
+      "tabcoins": 869
     },
     {
       "id": "DevOps",
       "label": "DevOps",
-      "count": 43,
-      "tabcoins": 160
+      "count": 44,
+      "tabcoins": 179
     },
     {
       "id": "Java",
       "label": "Java",
-      "count": 276,
-      "tabcoins": 758
+      "count": 277,
+      "tabcoins": 773
     },
     {
       "id": "WebAssembly",
       "label": "WebAssembly",
-      "count": 14,
-      "tabcoins": 42
+      "count": 16,
+      "tabcoins": 59
     },
     {
       "id": "Next.js",
       "label": "Next.js",
-      "count": 211,
-      "tabcoins": 736
+      "count": 214,
+      "tabcoins": 760
     },
     {
       "id": "Playwright",
@@ -101,20 +101,20 @@
     {
       "id": "Python",
       "label": "Python",
-      "count": 504,
-      "tabcoins": 1963
+      "count": 508,
+      "tabcoins": 1999
     },
     {
       "id": "AWS",
       "label": "AWS",
-      "count": 130,
-      "tabcoins": 306
+      "count": 131,
+      "tabcoins": 325
     },
     {
       "id": "Serverless",
       "label": "Serverless",
-      "count": 29,
-      "tabcoins": 64
+      "count": 31,
+      "tabcoins": 89
     },
     {
       "id": "Laravel",
@@ -125,14 +125,14 @@
     {
       "id": "Node.js",
       "label": "Node.js",
-      "count": 242,
-      "tabcoins": 1342
+      "count": 246,
+      "tabcoins": 1386
     },
     {
       "id": "C#",
       "label": "C#",
-      "count": 156,
-      "tabcoins": 619
+      "count": 158,
+      "tabcoins": 641
     },
     {
       "id": "FastAPI",
@@ -161,26 +161,26 @@
     {
       "id": "ESLint",
       "label": "ESLint",
-      "count": 9,
-      "tabcoins": 24
+      "count": 10,
+      "tabcoins": 29
     },
     {
       "id": "VSCode",
       "label": "VSCode",
-      "count": 138,
-      "tabcoins": 917
+      "count": 140,
+      "tabcoins": 926
     },
     {
       "id": "TypeScript",
       "label": "TypeScript",
-      "count": 192,
-      "tabcoins": 826
+      "count": 195,
+      "tabcoins": 849
     },
     {
       "id": "Angular",
       "label": "Angular",
-      "count": 82,
-      "tabcoins": 261
+      "count": 83,
+      "tabcoins": 276
     },
     {
       "id": "Flutter",
@@ -191,8 +191,8 @@
     {
       "id": "SQL",
       "label": "SQL",
-      "count": 91,
-      "tabcoins": 406
+      "count": 94,
+      "tabcoins": 429
     },
     {
       "id": "Django",
@@ -203,8 +203,8 @@
     {
       "id": "React",
       "label": "React",
-      "count": 493,
-      "tabcoins": 1635
+      "count": 498,
+      "tabcoins": 1683
     },
     {
       "id": "Tailwind",
@@ -215,14 +215,14 @@
     {
       "id": "React Native",
       "label": "React Native",
-      "count": 89,
-      "tabcoins": 269
+      "count": 90,
+      "tabcoins": 281
     },
     {
       "id": "Redis",
       "label": "Redis",
-      "count": 35,
-      "tabcoins": 211
+      "count": 36,
+      "tabcoins": 223
     },
     {
       "id": "Terraform",
@@ -233,8 +233,8 @@
     {
       "id": "Azure",
       "label": "Azure",
-      "count": 41,
-      "tabcoins": 80
+      "count": 42,
+      "tabcoins": 99
     },
     {
       "id": "Microservices",
@@ -251,8 +251,8 @@
     {
       "id": "Figma",
       "label": "Figma",
-      "count": 27,
-      "tabcoins": 89
+      "count": 28,
+      "tabcoins": 90
     },
     {
       "id": "Docker",
@@ -263,8 +263,8 @@
     {
       "id": "Vercel",
       "label": "Vercel",
-      "count": 55,
-      "tabcoins": 283
+      "count": 56,
+      "tabcoins": 302
     },
     {
       "id": "Spring",
@@ -287,8 +287,8 @@
     {
       "id": "GraphQL",
       "label": "GraphQL",
-      "count": 17,
-      "tabcoins": 39
+      "count": 18,
+      "tabcoins": 43
     },
     {
       "id": "Supabase",
@@ -305,8 +305,8 @@
     {
       "id": "C++",
       "label": "C++",
-      "count": 87,
-      "tabcoins": 352
+      "count": 88,
+      "tabcoins": 367
     },
     {
       "id": "Blockchain",
@@ -365,8 +365,8 @@
     {
       "id": "GCP",
       "label": "GCP",
-      "count": 24,
-      "tabcoins": 79
+      "count": 25,
+      "tabcoins": 98
     },
     {
       "id": "Kotlin",
@@ -377,8 +377,8 @@
     {
       "id": "Vue",
       "label": "Vue",
-      "count": 54,
-      "tabcoins": 147
+      "count": 56,
+      "tabcoins": 156
     },
     {
       "id": "Svelte",
@@ -395,8 +395,8 @@
     {
       "id": "GitLab",
       "label": "GitLab",
-      "count": 11,
-      "tabcoins": 54
+      "count": 12,
+      "tabcoins": 68
     },
     {
       "id": "Flask",
@@ -419,8 +419,8 @@
     {
       "id": "Webpack",
       "label": "Webpack",
-      "count": 6,
-      "tabcoins": 29
+      "count": 7,
+      "tabcoins": 34
     }
   ],
   "edges": [
@@ -432,7 +432,7 @@
     {
       "source": "IA/LLM",
       "target": "PHP",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "IA/LLM",
@@ -447,7 +447,7 @@
     {
       "source": "IA/LLM",
       "target": "Python",
-      "weight": 17
+      "weight": 18
     },
     {
       "source": "AWS",
@@ -457,7 +457,7 @@
     {
       "source": "IA/LLM",
       "target": "Node.js",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "ChatGPT",
@@ -472,7 +472,7 @@
     {
       "source": "Java",
       "target": "Python",
-      "weight": 16
+      "weight": 17
     },
     {
       "source": "Python",
@@ -487,17 +487,17 @@
     {
       "source": "Git",
       "target": "GitHub",
-      "weight": 32
+      "weight": 34
     },
     {
       "source": "React",
       "target": "React Native",
-      "weight": 89
+      "weight": 90
     },
     {
       "source": "IA/LLM",
       "target": "React",
-      "weight": 11
+      "weight": 12
     },
     {
       "source": "Git",
@@ -507,12 +507,12 @@
     {
       "source": "IA/LLM",
       "target": "Java",
-      "weight": 7
+      "weight": 8
     },
     {
       "source": "JavaScript",
       "target": "TypeScript",
-      "weight": 15
+      "weight": 18
     },
     {
       "source": "Linux",
@@ -532,12 +532,12 @@
     {
       "source": "Node.js",
       "target": "TypeScript",
-      "weight": 21
+      "weight": 22
     },
     {
       "source": "Next.js",
       "target": "React",
-      "weight": 23
+      "weight": 25
     },
     {
       "source": "ChatGPT",
@@ -595,14 +595,19 @@
       "weight": 15
     },
     {
+      "source": "SQL",
+      "target": "TypeScript",
+      "weight": 2
+    },
+    {
       "source": "C++",
       "target": "IA/LLM",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "PHP",
       "target": "Rust",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "IA/LLM",
@@ -622,7 +627,7 @@
     {
       "source": "Rust",
       "target": "WebAssembly",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "CI/CD",
@@ -632,12 +637,12 @@
     {
       "source": "GitHub",
       "target": "React",
-      "weight": 7
+      "weight": 10
     },
     {
       "source": "GitHub",
       "target": "React Native",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "IA/LLM",
@@ -652,17 +657,17 @@
     {
       "source": "Node.js",
       "target": "React",
-      "weight": 10
+      "weight": 12
     },
     {
       "source": "C#",
       "target": "Python",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "PHP",
       "target": "Python",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "Python",
@@ -672,12 +677,12 @@
     {
       "source": "C#",
       "target": "Java",
-      "weight": 12
+      "weight": 13
     },
     {
       "source": "Java",
       "target": "PHP",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "Java",
@@ -687,7 +692,7 @@
     {
       "source": "C#",
       "target": "PHP",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "C#",
@@ -712,7 +717,7 @@
     {
       "source": "GitHub",
       "target": "VSCode",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "C#",
@@ -732,22 +737,22 @@
     {
       "source": "Python",
       "target": "React",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "Node.js",
       "target": "Redis",
-      "weight": 6
+      "weight": 7
     },
     {
       "source": "Node.js",
       "target": "SQL",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "Redis",
       "target": "SQL",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "IA/LLM",
@@ -777,7 +782,7 @@
     {
       "source": "C#",
       "target": "Node.js",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "GitHub",
@@ -812,12 +817,12 @@
     {
       "source": "JavaScript",
       "target": "Python",
-      "weight": 15
+      "weight": 18
     },
     {
       "source": "IA/LLM",
       "target": "JavaScript",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "IA/LLM",
@@ -840,6 +845,11 @@
       "weight": 3
     },
     {
+      "source": "GitHub",
+      "target": "Next.js",
+      "weight": 4
+    },
+    {
       "source": "Docker",
       "target": "GitHub",
       "weight": 7
@@ -850,9 +860,14 @@
       "weight": 2
     },
     {
+      "source": "PostgreSQL",
+      "target": "SQL",
+      "weight": 2
+    },
+    {
       "source": "AWS",
       "target": "GCP",
-      "weight": 7
+      "weight": 8
     },
     {
       "source": "IA/LLM",
@@ -872,17 +887,17 @@
     {
       "source": "React",
       "target": "TypeScript",
-      "weight": 19
+      "weight": 21
     },
     {
       "source": "Java",
       "target": "React",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "JavaScript",
       "target": "WebAssembly",
-      "weight": 3
+      "weight": 5
     },
     {
       "source": "Flutter",
@@ -912,7 +927,7 @@
     {
       "source": "AWS",
       "target": "DevOps",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "IA/LLM",
@@ -932,7 +947,7 @@
     {
       "source": "Java",
       "target": "JavaScript",
-      "weight": 10
+      "weight": 11
     },
     {
       "source": "Java",
@@ -960,14 +975,19 @@
       "weight": 2
     },
     {
+      "source": "Golang",
+      "target": "Node.js",
+      "weight": 2
+    },
+    {
       "source": "AWS",
       "target": "Serverless",
-      "weight": 7
+      "weight": 8
     },
     {
       "source": "Python",
       "target": "Rust",
-      "weight": 5
+      "weight": 6
     },
     {
       "source": "PostgreSQL",
@@ -987,7 +1007,7 @@
     {
       "source": "Node.js",
       "target": "Rust",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "Django",
@@ -998,6 +1018,11 @@
       "source": "Docker",
       "target": "Laravel",
       "weight": 4
+    },
+    {
+      "source": "GitHub",
+      "target": "SQL",
+      "weight": 3
     },
     {
       "source": "Django",
@@ -1067,17 +1092,17 @@
     {
       "source": "GitHub",
       "target": "Node.js",
-      "weight": 3
+      "weight": 5
     },
     {
       "source": "Node.js",
       "target": "Python",
-      "weight": 7
+      "weight": 9
     },
     {
       "source": "GitHub",
       "target": "TypeScript",
-      "weight": 3
+      "weight": 5
     },
     {
       "source": "MongoDB",
@@ -1087,7 +1112,7 @@
     {
       "source": "Angular",
       "target": "React",
-      "weight": 18
+      "weight": 19
     },
     {
       "source": "GitHub",
@@ -1097,6 +1122,11 @@
     {
       "source": "Linux",
       "target": "React",
+      "weight": 2
+    },
+    {
+      "source": "Azure",
+      "target": "GitHub",
       "weight": 2
     },
     {
@@ -1112,17 +1142,22 @@
     {
       "source": "AWS",
       "target": "Azure",
-      "weight": 6
+      "weight": 7
     },
     {
       "source": "Azure",
       "target": "GCP",
-      "weight": 5
+      "weight": 6
     },
     {
       "source": "Node.js",
       "target": "PHP",
-      "weight": 4
+      "weight": 6
+    },
+    {
+      "source": "Redis",
+      "target": "TypeScript",
+      "weight": 2
     },
     {
       "source": "Flutter",
@@ -1157,7 +1192,7 @@
     {
       "source": "Python",
       "target": "SQL",
-      "weight": 5
+      "weight": 6
     },
     {
       "source": "React",
@@ -1172,7 +1207,7 @@
     {
       "source": "JavaScript",
       "target": "Rust",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "AWS",
@@ -1197,7 +1232,7 @@
     {
       "source": "Azure",
       "target": "DevOps",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "AWS",
@@ -1210,14 +1245,19 @@
       "weight": 5
     },
     {
+      "source": "Git",
+      "target": "SQL",
+      "weight": 2
+    },
+    {
       "source": "Serverless",
       "target": "TypeScript",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "React Native",
       "target": "TypeScript",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "Angular",
@@ -1227,7 +1267,7 @@
     {
       "source": "C++",
       "target": "Python",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "Flutter",
@@ -1247,7 +1287,7 @@
     {
       "source": "Angular",
       "target": "Node.js",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "Node.js",
@@ -1267,6 +1307,11 @@
     {
       "source": "C++",
       "target": "Java",
+      "weight": 4
+    },
+    {
+      "source": "C#",
+      "target": "JavaScript",
       "weight": 3
     },
     {
@@ -1277,7 +1322,7 @@
     {
       "source": "JavaScript",
       "target": "PHP",
-      "weight": 7
+      "weight": 9
     },
     {
       "source": "Docker",
@@ -1292,22 +1337,32 @@
     {
       "source": "GitHub",
       "target": "JavaScript",
-      "weight": 2
+      "weight": 7
     },
     {
       "source": "GitHub",
       "target": "Python",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "JavaScript",
       "target": "Node.js",
-      "weight": 5
+      "weight": 10
+    },
+    {
+      "source": "React",
+      "target": "Serverless",
+      "weight": 2
     },
     {
       "source": "PostgreSQL",
       "target": "Vercel",
       "weight": 3
+    },
+    {
+      "source": "Git",
+      "target": "Node.js",
+      "weight": 2
     },
     {
       "source": "Node.js",
@@ -1325,6 +1380,11 @@
       "weight": 8
     },
     {
+      "source": "TypeScript",
+      "target": "VSCode",
+      "weight": 2
+    },
+    {
       "source": "Django",
       "target": "Docker",
       "weight": 3
@@ -1332,7 +1392,7 @@
     {
       "source": "Next.js",
       "target": "TypeScript",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "AWS",
@@ -1342,7 +1402,7 @@
     {
       "source": "AWS",
       "target": "GitHub",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "Next.js",
@@ -1355,6 +1415,11 @@
       "weight": 2
     },
     {
+      "source": "GCP",
+      "target": "Serverless",
+      "weight": 2
+    },
+    {
       "source": "Azure",
       "target": "Linux",
       "weight": 2
@@ -1362,7 +1427,7 @@
     {
       "source": "Java",
       "target": "Node.js",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "Node.js",
@@ -1377,7 +1442,7 @@
     {
       "source": "JavaScript",
       "target": "React",
-      "weight": 7
+      "weight": 11
     },
     {
       "source": "JavaScript",
@@ -1385,9 +1450,14 @@
       "weight": 2
     },
     {
+      "source": "C#",
+      "target": "GitHub",
+      "weight": 2
+    },
+    {
       "source": "Next.js",
       "target": "Node.js",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "Git",
@@ -1395,9 +1465,14 @@
       "weight": 3
     },
     {
+      "source": "GitHub",
+      "target": "Redis",
+      "weight": 2
+    },
+    {
       "source": "Angular",
       "target": "Java",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "Deno",
@@ -1442,7 +1517,7 @@
     {
       "source": "Serverless",
       "target": "Vercel",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "Vercel",
@@ -1460,6 +1535,16 @@
       "weight": 3
     },
     {
+      "source": "C#",
+      "target": "C++",
+      "weight": 2
+    },
+    {
+      "source": "DevOps",
+      "target": "GitHub",
+      "weight": 2
+    },
+    {
       "source": "Docker",
       "target": "MySQL",
       "weight": 3
@@ -1468,6 +1553,11 @@
       "source": "Vercel",
       "target": "Vite",
       "weight": 3
+    },
+    {
+      "source": "Golang",
+      "target": "Rust",
+      "weight": 2
     },
     {
       "source": "Firebase",
@@ -1500,6 +1590,11 @@
       "weight": 4
     },
     {
+      "source": "GitHub",
+      "target": "Golang",
+      "weight": 2
+    },
+    {
       "source": "ChatGPT",
       "target": "React Native",
       "weight": 2
@@ -1515,13 +1610,33 @@
       "weight": 2
     },
     {
+      "source": "GitHub",
+      "target": "Rust",
+      "weight": 2
+    },
+    {
+      "source": "Next.js",
+      "target": "Redis",
+      "weight": 2
+    },
+    {
       "source": "Laravel",
       "target": "MongoDB",
       "weight": 2
     },
     {
       "source": "PHP",
+      "target": "React",
+      "weight": 2
+    },
+    {
+      "source": "PHP",
       "target": "TypeScript",
+      "weight": 2
+    },
+    {
+      "source": "TypeScript",
+      "target": "Vue",
       "weight": 2
     },
     {
@@ -1532,11 +1647,61 @@
     {
       "source": "JavaScript",
       "target": "Vue",
+      "weight": 5
+    },
+    {
+      "source": "JavaScript",
+      "target": "VSCode",
+      "weight": 2
+    },
+    {
+      "source": "GitHub",
+      "target": "PHP",
       "weight": 3
+    },
+    {
+      "source": "Vue",
+      "target": "Webpack",
+      "weight": 2
     },
     {
       "source": "Vercel",
       "target": "Webpack",
+      "weight": 2
+    },
+    {
+      "source": "PHP",
+      "target": "WebAssembly",
+      "weight": 2
+    },
+    {
+      "source": "Golang",
+      "target": "JavaScript",
+      "weight": 2
+    },
+    {
+      "source": "GitHub",
+      "target": "Serverless",
+      "weight": 2
+    },
+    {
+      "source": "Git",
+      "target": "JavaScript",
+      "weight": 2
+    },
+    {
+      "source": "Git",
+      "target": "React",
+      "weight": 2
+    },
+    {
+      "source": "Node.js",
+      "target": "Vue",
+      "weight": 2
+    },
+    {
+      "source": "Python",
+      "target": "WebAssembly",
       "weight": 2
     }
   ],
@@ -1641,13 +1806,13 @@
     "2026-07"
   ],
   "dateRange": {
-    "from": "2022-05-06T18:11:22.451Z",
+    "from": "2022-05-06T15:20:01.158Z",
     "to": "2026-09-10T00:17:11.093Z"
   },
   "insights": [
-    "IA/LLM segue dominando o volume (2168 posts), mas perdeu força: -47% nos últimos 2 meses vs. os 2 anteriores.",
-    "JavaScript voltou a aparecer com mais força: foi de 4 pra 8 posts no mesmo intervalo (+100%).",
-    "CI/CD, PostgreSQL, VSCode têm o maior retorno em tabcoins por post — nicho valorizado mesmo com menos gente falando.",
-    "React e React Native aparecem juntos com frequência (89 posts citam os dois) — quem fala de um tende a falar do outro."
+    "IA/LLM lidera o volume (2170 posts) e caiu 47% no bimestre.",
+    "JavaScript cresceu no bimestre: de 4 pra 8 posts (+100%).",
+    "CI/CD, PostgreSQL e VSCode: menos posts, mais tabcoins por post.",
+    "React e React Native aparecem juntos em 90 posts: quem cita um, cita o outro."
   ]
 }

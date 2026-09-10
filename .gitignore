@@ -1,5 +1,6 @@
 node_modules
 dist
 posts-cache.json
+bodies-cache.json
 .env
 *.local
