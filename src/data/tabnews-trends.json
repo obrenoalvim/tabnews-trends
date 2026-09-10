@@ -1,0 +1,1647 @@
+{
+  "generatedAt": "2026-09-10T01:36:23.768Z",
+  "postsAnalyzed": 30890,
+  "nodes": [
+    {
+      "id": "Git",
+      "label": "Git",
+      "count": 190,
+      "tabcoins": 1067
+    },
+    {
+      "id": "GitHub",
+      "label": "GitHub",
+      "count": 424,
+      "tabcoins": 2469
+    },
+    {
+      "id": "IA/LLM",
+      "label": "IA/LLM",
+      "count": 2168,
+      "tabcoins": 6347
+    },
+    {
+      "id": "ChatGPT",
+      "label": "ChatGPT",
+      "count": 429,
+      "tabcoins": 1248
+    },
+    {
+      "id": "Claude",
+      "label": "Claude",
+      "count": 239,
+      "tabcoins": 596
+    },
+    {
+      "id": "JavaScript",
+      "label": "JavaScript",
+      "count": 498,
+      "tabcoins": 1945
+    },
+    {
+      "id": "CI/CD",
+      "label": "CI/CD",
+      "count": 14,
+      "tabcoins": 101
+    },
+    {
+      "id": "Golang",
+      "label": "Golang",
+      "count": 48,
+      "tabcoins": 190
+    },
+    {
+      "id": "Rust",
+      "label": "Rust",
+      "count": 216,
+      "tabcoins": 1249
+    },
+    {
+      "id": "Linux",
+      "label": "Linux",
+      "count": 402,
+      "tabcoins": 1730
+    },
+    {
+      "id": "PHP",
+      "label": "PHP",
+      "count": 220,
+      "tabcoins": 831
+    },
+    {
+      "id": "DevOps",
+      "label": "DevOps",
+      "count": 43,
+      "tabcoins": 160
+    },
+    {
+      "id": "Java",
+      "label": "Java",
+      "count": 276,
+      "tabcoins": 758
+    },
+    {
+      "id": "WebAssembly",
+      "label": "WebAssembly",
+      "count": 14,
+      "tabcoins": 42
+    },
+    {
+      "id": "Next.js",
+      "label": "Next.js",
+      "count": 211,
+      "tabcoins": 736
+    },
+    {
+      "id": "Playwright",
+      "label": "Playwright",
+      "count": 5,
+      "tabcoins": 15
+    },
+    {
+      "id": "Python",
+      "label": "Python",
+      "count": 504,
+      "tabcoins": 1963
+    },
+    {
+      "id": "AWS",
+      "label": "AWS",
+      "count": 130,
+      "tabcoins": 306
+    },
+    {
+      "id": "Serverless",
+      "label": "Serverless",
+      "count": 29,
+      "tabcoins": 64
+    },
+    {
+      "id": "Laravel",
+      "label": "Laravel",
+      "count": 95,
+      "tabcoins": 250
+    },
+    {
+      "id": "Node.js",
+      "label": "Node.js",
+      "count": 242,
+      "tabcoins": 1342
+    },
+    {
+      "id": "C#",
+      "label": "C#",
+      "count": 156,
+      "tabcoins": 619
+    },
+    {
+      "id": "FastAPI",
+      "label": "FastAPI",
+      "count": 21,
+      "tabcoins": 103
+    },
+    {
+      "id": "Swift",
+      "label": "Swift",
+      "count": 24,
+      "tabcoins": 44
+    },
+    {
+      "id": "Copilot",
+      "label": "Copilot",
+      "count": 98,
+      "tabcoins": 313
+    },
+    {
+      "id": "PostgreSQL",
+      "label": "PostgreSQL",
+      "count": 80,
+      "tabcoins": 552
+    },
+    {
+      "id": "ESLint",
+      "label": "ESLint",
+      "count": 9,
+      "tabcoins": 24
+    },
+    {
+      "id": "VSCode",
+      "label": "VSCode",
+      "count": 138,
+      "tabcoins": 917
+    },
+    {
+      "id": "TypeScript",
+      "label": "TypeScript",
+      "count": 192,
+      "tabcoins": 826
+    },
+    {
+      "id": "Angular",
+      "label": "Angular",
+      "count": 82,
+      "tabcoins": 261
+    },
+    {
+      "id": "Flutter",
+      "label": "Flutter",
+      "count": 116,
+      "tabcoins": 348
+    },
+    {
+      "id": "SQL",
+      "label": "SQL",
+      "count": 91,
+      "tabcoins": 406
+    },
+    {
+      "id": "Django",
+      "label": "Django",
+      "count": 88,
+      "tabcoins": 270
+    },
+    {
+      "id": "React",
+      "label": "React",
+      "count": 493,
+      "tabcoins": 1635
+    },
+    {
+      "id": "Tailwind",
+      "label": "Tailwind",
+      "count": 45,
+      "tabcoins": 225
+    },
+    {
+      "id": "React Native",
+      "label": "React Native",
+      "count": 89,
+      "tabcoins": 269
+    },
+    {
+      "id": "Redis",
+      "label": "Redis",
+      "count": 35,
+      "tabcoins": 211
+    },
+    {
+      "id": "Terraform",
+      "label": "Terraform",
+      "count": 14,
+      "tabcoins": 52
+    },
+    {
+      "id": "Azure",
+      "label": "Azure",
+      "count": 41,
+      "tabcoins": 80
+    },
+    {
+      "id": "Microservices",
+      "label": "Microservices",
+      "count": 27,
+      "tabcoins": 90
+    },
+    {
+      "id": "Machine Learning",
+      "label": "Machine Learning",
+      "count": 35,
+      "tabcoins": 112
+    },
+    {
+      "id": "Figma",
+      "label": "Figma",
+      "count": 27,
+      "tabcoins": 89
+    },
+    {
+      "id": "Docker",
+      "label": "Docker",
+      "count": 142,
+      "tabcoins": 683
+    },
+    {
+      "id": "Vercel",
+      "label": "Vercel",
+      "count": 55,
+      "tabcoins": 283
+    },
+    {
+      "id": "Spring",
+      "label": "Spring",
+      "count": 24,
+      "tabcoins": 106
+    },
+    {
+      "id": "Vim/Neovim",
+      "label": "Vim/Neovim",
+      "count": 42,
+      "tabcoins": 150
+    },
+    {
+      "id": "Deno",
+      "label": "Deno",
+      "count": 22,
+      "tabcoins": 97
+    },
+    {
+      "id": "GraphQL",
+      "label": "GraphQL",
+      "count": 17,
+      "tabcoins": 39
+    },
+    {
+      "id": "Supabase",
+      "label": "Supabase",
+      "count": 27,
+      "tabcoins": 70
+    },
+    {
+      "id": "Kubernetes",
+      "label": "Kubernetes",
+      "count": 27,
+      "tabcoins": 72
+    },
+    {
+      "id": "C++",
+      "label": "C++",
+      "count": 87,
+      "tabcoins": 352
+    },
+    {
+      "id": "Blockchain",
+      "label": "Blockchain",
+      "count": 41,
+      "tabcoins": 90
+    },
+    {
+      "id": "Ruby",
+      "label": "Ruby",
+      "count": 40,
+      "tabcoins": 91
+    },
+    {
+      "id": "MongoDB",
+      "label": "MongoDB",
+      "count": 22,
+      "tabcoins": 77
+    },
+    {
+      "id": "Vitest",
+      "label": "Vitest",
+      "count": 2,
+      "tabcoins": 2
+    },
+    {
+      "id": "NoSQL",
+      "label": "NoSQL",
+      "count": 12,
+      "tabcoins": 48
+    },
+    {
+      "id": "MySQL",
+      "label": "MySQL",
+      "count": 43,
+      "tabcoins": 186
+    },
+    {
+      "id": "Vite",
+      "label": "Vite",
+      "count": 31,
+      "tabcoins": 78
+    },
+    {
+      "id": "Web3",
+      "label": "Web3",
+      "count": 23,
+      "tabcoins": 55
+    },
+    {
+      "id": "Firebase",
+      "label": "Firebase",
+      "count": 33,
+      "tabcoins": 95
+    },
+    {
+      "id": "GCP",
+      "label": "GCP",
+      "count": 24,
+      "tabcoins": 79
+    },
+    {
+      "id": "Kotlin",
+      "label": "Kotlin",
+      "count": 34,
+      "tabcoins": 47
+    },
+    {
+      "id": "Vue",
+      "label": "Vue",
+      "count": 54,
+      "tabcoins": 147
+    },
+    {
+      "id": "Svelte",
+      "label": "Svelte",
+      "count": 15,
+      "tabcoins": 52
+    },
+    {
+      "id": "Elixir",
+      "label": "Elixir",
+      "count": 11,
+      "tabcoins": 42
+    },
+    {
+      "id": "GitLab",
+      "label": "GitLab",
+      "count": 11,
+      "tabcoins": 54
+    },
+    {
+      "id": "Flask",
+      "label": "Flask",
+      "count": 18,
+      "tabcoins": 71
+    },
+    {
+      "id": "gRPC",
+      "label": "gRPC",
+      "count": 2,
+      "tabcoins": 14
+    },
+    {
+      "id": "Cypress",
+      "label": "Cypress",
+      "count": 2,
+      "tabcoins": 7
+    },
+    {
+      "id": "Webpack",
+      "label": "Webpack",
+      "count": 6,
+      "tabcoins": 29
+    }
+  ],
+  "edges": [
+    {
+      "source": "Claude",
+      "target": "IA/LLM",
+      "weight": 41
+    },
+    {
+      "source": "IA/LLM",
+      "target": "PHP",
+      "weight": 3
+    },
+    {
+      "source": "IA/LLM",
+      "target": "Linux",
+      "weight": 16
+    },
+    {
+      "source": "IA/LLM",
+      "target": "Next.js",
+      "weight": 4
+    },
+    {
+      "source": "IA/LLM",
+      "target": "Python",
+      "weight": 17
+    },
+    {
+      "source": "AWS",
+      "target": "IA/LLM",
+      "weight": 7
+    },
+    {
+      "source": "IA/LLM",
+      "target": "Node.js",
+      "weight": 2
+    },
+    {
+      "source": "ChatGPT",
+      "target": "IA/LLM",
+      "weight": 34
+    },
+    {
+      "source": "ChatGPT",
+      "target": "Claude",
+      "weight": 5
+    },
+    {
+      "source": "Java",
+      "target": "Python",
+      "weight": 16
+    },
+    {
+      "source": "Python",
+      "target": "VSCode",
+      "weight": 4
+    },
+    {
+      "source": "ESLint",
+      "target": "VSCode",
+      "weight": 2
+    },
+    {
+      "source": "Git",
+      "target": "GitHub",
+      "weight": 32
+    },
+    {
+      "source": "React",
+      "target": "React Native",
+      "weight": 89
+    },
+    {
+      "source": "IA/LLM",
+      "target": "React",
+      "weight": 11
+    },
+    {
+      "source": "Git",
+      "target": "IA/LLM",
+      "weight": 4
+    },
+    {
+      "source": "IA/LLM",
+      "target": "Java",
+      "weight": 7
+    },
+    {
+      "source": "JavaScript",
+      "target": "TypeScript",
+      "weight": 15
+    },
+    {
+      "source": "Linux",
+      "target": "Rust",
+      "weight": 9
+    },
+    {
+      "source": "React",
+      "target": "Rust",
+      "weight": 3
+    },
+    {
+      "source": "IA/LLM",
+      "target": "Rust",
+      "weight": 4
+    },
+    {
+      "source": "Node.js",
+      "target": "TypeScript",
+      "weight": 21
+    },
+    {
+      "source": "Next.js",
+      "target": "React",
+      "weight": 23
+    },
+    {
+      "source": "ChatGPT",
+      "target": "React",
+      "weight": 4
+    },
+    {
+      "source": "React",
+      "target": "Spring",
+      "weight": 2
+    },
+    {
+      "source": "IA/LLM",
+      "target": "Playwright",
+      "weight": 3
+    },
+    {
+      "source": "VSCode",
+      "target": "Vim/Neovim",
+      "weight": 2
+    },
+    {
+      "source": "Deno",
+      "target": "Next.js",
+      "weight": 2
+    },
+    {
+      "source": "Copilot",
+      "target": "GitHub",
+      "weight": 49
+    },
+    {
+      "source": "Tailwind",
+      "target": "TypeScript",
+      "weight": 2
+    },
+    {
+      "source": "Claude",
+      "target": "Rust",
+      "weight": 2
+    },
+    {
+      "source": "IA/LLM",
+      "target": "Machine Learning",
+      "weight": 3
+    },
+    {
+      "source": "Next.js",
+      "target": "Supabase",
+      "weight": 5
+    },
+    {
+      "source": "Laravel",
+      "target": "PHP",
+      "weight": 15
+    },
+    {
+      "source": "C++",
+      "target": "IA/LLM",
+      "weight": 2
+    },
+    {
+      "source": "PHP",
+      "target": "Rust",
+      "weight": 4
+    },
+    {
+      "source": "IA/LLM",
+      "target": "TypeScript",
+      "weight": 2
+    },
+    {
+      "source": "Redis",
+      "target": "Rust",
+      "weight": 2
+    },
+    {
+      "source": "Docker",
+      "target": "Kubernetes",
+      "weight": 4
+    },
+    {
+      "source": "Rust",
+      "target": "WebAssembly",
+      "weight": 3
+    },
+    {
+      "source": "CI/CD",
+      "target": "GitHub",
+      "weight": 9
+    },
+    {
+      "source": "GitHub",
+      "target": "React",
+      "weight": 7
+    },
+    {
+      "source": "GitHub",
+      "target": "React Native",
+      "weight": 2
+    },
+    {
+      "source": "IA/LLM",
+      "target": "VSCode",
+      "weight": 3
+    },
+    {
+      "source": "FastAPI",
+      "target": "Next.js",
+      "weight": 2
+    },
+    {
+      "source": "Node.js",
+      "target": "React",
+      "weight": 10
+    },
+    {
+      "source": "C#",
+      "target": "Python",
+      "weight": 3
+    },
+    {
+      "source": "PHP",
+      "target": "Python",
+      "weight": 4
+    },
+    {
+      "source": "Python",
+      "target": "Ruby",
+      "weight": 2
+    },
+    {
+      "source": "C#",
+      "target": "Java",
+      "weight": 12
+    },
+    {
+      "source": "Java",
+      "target": "PHP",
+      "weight": 4
+    },
+    {
+      "source": "Java",
+      "target": "Ruby",
+      "weight": 4
+    },
+    {
+      "source": "C#",
+      "target": "PHP",
+      "weight": 2
+    },
+    {
+      "source": "C#",
+      "target": "Ruby",
+      "weight": 4
+    },
+    {
+      "source": "PHP",
+      "target": "Ruby",
+      "weight": 2
+    },
+    {
+      "source": "Copilot",
+      "target": "IA/LLM",
+      "weight": 9
+    },
+    {
+      "source": "ChatGPT",
+      "target": "Copilot",
+      "weight": 3
+    },
+    {
+      "source": "GitHub",
+      "target": "VSCode",
+      "weight": 8
+    },
+    {
+      "source": "C#",
+      "target": "Rust",
+      "weight": 6
+    },
+    {
+      "source": "Next.js",
+      "target": "Vitest",
+      "weight": 2
+    },
+    {
+      "source": "FastAPI",
+      "target": "Redis",
+      "weight": 3
+    },
+    {
+      "source": "Python",
+      "target": "React",
+      "weight": 4
+    },
+    {
+      "source": "Node.js",
+      "target": "Redis",
+      "weight": 6
+    },
+    {
+      "source": "Node.js",
+      "target": "SQL",
+      "weight": 3
+    },
+    {
+      "source": "Redis",
+      "target": "SQL",
+      "weight": 2
+    },
+    {
+      "source": "IA/LLM",
+      "target": "Supabase",
+      "weight": 3
+    },
+    {
+      "source": "NoSQL",
+      "target": "SQL",
+      "weight": 5
+    },
+    {
+      "source": "Claude",
+      "target": "GitHub",
+      "weight": 2
+    },
+    {
+      "source": "React",
+      "target": "Vite",
+      "weight": 12
+    },
+    {
+      "source": "Next.js",
+      "target": "Vite",
+      "weight": 2
+    },
+    {
+      "source": "C#",
+      "target": "Node.js",
+      "weight": 3
+    },
+    {
+      "source": "GitHub",
+      "target": "IA/LLM",
+      "weight": 13
+    },
+    {
+      "source": "Figma",
+      "target": "IA/LLM",
+      "weight": 2
+    },
+    {
+      "source": "Next.js",
+      "target": "PHP",
+      "weight": 2
+    },
+    {
+      "source": "Copilot",
+      "target": "VSCode",
+      "weight": 2
+    },
+    {
+      "source": "JavaScript",
+      "target": "PostgreSQL",
+      "weight": 2
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "Serverless",
+      "weight": 2
+    },
+    {
+      "source": "JavaScript",
+      "target": "Python",
+      "weight": 15
+    },
+    {
+      "source": "IA/LLM",
+      "target": "JavaScript",
+      "weight": 2
+    },
+    {
+      "source": "IA/LLM",
+      "target": "SQL",
+      "weight": 3
+    },
+    {
+      "source": "MySQL",
+      "target": "Node.js",
+      "weight": 4
+    },
+    {
+      "source": "Docker",
+      "target": "Linux",
+      "weight": 4
+    },
+    {
+      "source": "Docker",
+      "target": "Next.js",
+      "weight": 3
+    },
+    {
+      "source": "Docker",
+      "target": "GitHub",
+      "weight": 7
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "Redis",
+      "weight": 2
+    },
+    {
+      "source": "AWS",
+      "target": "GCP",
+      "weight": 7
+    },
+    {
+      "source": "IA/LLM",
+      "target": "Laravel",
+      "weight": 3
+    },
+    {
+      "source": "Deno",
+      "target": "Serverless",
+      "weight": 2
+    },
+    {
+      "source": "Java",
+      "target": "TypeScript",
+      "weight": 3
+    },
+    {
+      "source": "React",
+      "target": "TypeScript",
+      "weight": 19
+    },
+    {
+      "source": "Java",
+      "target": "React",
+      "weight": 3
+    },
+    {
+      "source": "JavaScript",
+      "target": "WebAssembly",
+      "weight": 3
+    },
+    {
+      "source": "Flutter",
+      "target": "React",
+      "weight": 10
+    },
+    {
+      "source": "AWS",
+      "target": "Docker",
+      "weight": 3
+    },
+    {
+      "source": "CI/CD",
+      "target": "Docker",
+      "weight": 2
+    },
+    {
+      "source": "AWS",
+      "target": "Kubernetes",
+      "weight": 2
+    },
+    {
+      "source": "DevOps",
+      "target": "Kubernetes",
+      "weight": 2
+    },
+    {
+      "source": "AWS",
+      "target": "DevOps",
+      "weight": 2
+    },
+    {
+      "source": "IA/LLM",
+      "target": "React Native",
+      "weight": 2
+    },
+    {
+      "source": "IA/LLM",
+      "target": "Vim/Neovim",
+      "weight": 2
+    },
+    {
+      "source": "TypeScript",
+      "target": "Vite",
+      "weight": 2
+    },
+    {
+      "source": "Java",
+      "target": "JavaScript",
+      "weight": 10
+    },
+    {
+      "source": "Java",
+      "target": "MySQL",
+      "weight": 3
+    },
+    {
+      "source": "C++",
+      "target": "Flutter",
+      "weight": 2
+    },
+    {
+      "source": "Rust",
+      "target": "Vercel",
+      "weight": 2
+    },
+    {
+      "source": "Svelte",
+      "target": "Vue",
+      "weight": 3
+    },
+    {
+      "source": "IA/LLM",
+      "target": "Vue",
+      "weight": 2
+    },
+    {
+      "source": "AWS",
+      "target": "Serverless",
+      "weight": 7
+    },
+    {
+      "source": "Python",
+      "target": "Rust",
+      "weight": 5
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "TypeScript",
+      "weight": 2
+    },
+    {
+      "source": "Node.js",
+      "target": "PostgreSQL",
+      "weight": 2
+    },
+    {
+      "source": "C++",
+      "target": "Rust",
+      "weight": 10
+    },
+    {
+      "source": "Node.js",
+      "target": "Rust",
+      "weight": 2
+    },
+    {
+      "source": "Django",
+      "target": "Python",
+      "weight": 11
+    },
+    {
+      "source": "Docker",
+      "target": "Laravel",
+      "weight": 4
+    },
+    {
+      "source": "Django",
+      "target": "Next.js",
+      "weight": 2
+    },
+    {
+      "source": "Linux",
+      "target": "VSCode",
+      "weight": 3
+    },
+    {
+      "source": "Next.js",
+      "target": "Vercel",
+      "weight": 3
+    },
+    {
+      "source": "Rust",
+      "target": "Svelte",
+      "weight": 2
+    },
+    {
+      "source": "MySQL",
+      "target": "PostgreSQL",
+      "weight": 3
+    },
+    {
+      "source": "IA/LLM",
+      "target": "Tailwind",
+      "weight": 3
+    },
+    {
+      "source": "Linux",
+      "target": "Python",
+      "weight": 4
+    },
+    {
+      "source": "Django",
+      "target": "FastAPI",
+      "weight": 2
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "Supabase",
+      "weight": 2
+    },
+    {
+      "source": "Flutter",
+      "target": "React Native",
+      "weight": 6
+    },
+    {
+      "source": "FastAPI",
+      "target": "Python",
+      "weight": 5
+    },
+    {
+      "source": "AWS",
+      "target": "Rust",
+      "weight": 2
+    },
+    {
+      "source": "React",
+      "target": "Vue",
+      "weight": 16
+    },
+    {
+      "source": "GitHub",
+      "target": "Node.js",
+      "weight": 3
+    },
+    {
+      "source": "Node.js",
+      "target": "Python",
+      "weight": 7
+    },
+    {
+      "source": "GitHub",
+      "target": "TypeScript",
+      "weight": 3
+    },
+    {
+      "source": "MongoDB",
+      "target": "Node.js",
+      "weight": 3
+    },
+    {
+      "source": "Angular",
+      "target": "React",
+      "weight": 18
+    },
+    {
+      "source": "GitHub",
+      "target": "Linux",
+      "weight": 2
+    },
+    {
+      "source": "Linux",
+      "target": "React",
+      "weight": 2
+    },
+    {
+      "source": "Kotlin",
+      "target": "Swift",
+      "weight": 3
+    },
+    {
+      "source": "React",
+      "target": "Svelte",
+      "weight": 4
+    },
+    {
+      "source": "AWS",
+      "target": "Azure",
+      "weight": 6
+    },
+    {
+      "source": "Azure",
+      "target": "GCP",
+      "weight": 5
+    },
+    {
+      "source": "Node.js",
+      "target": "PHP",
+      "weight": 4
+    },
+    {
+      "source": "Flutter",
+      "target": "GitHub",
+      "weight": 3
+    },
+    {
+      "source": "CI/CD",
+      "target": "Flutter",
+      "weight": 2
+    },
+    {
+      "source": "AWS",
+      "target": "PostgreSQL",
+      "weight": 2
+    },
+    {
+      "source": "Docker",
+      "target": "PostgreSQL",
+      "weight": 4
+    },
+    {
+      "source": "Deno",
+      "target": "JavaScript",
+      "weight": 5
+    },
+    {
+      "source": "Flutter",
+      "target": "Kotlin",
+      "weight": 4
+    },
+    {
+      "source": "Python",
+      "target": "SQL",
+      "weight": 5
+    },
+    {
+      "source": "React",
+      "target": "Tailwind",
+      "weight": 6
+    },
+    {
+      "source": "Tailwind",
+      "target": "Vite",
+      "weight": 4
+    },
+    {
+      "source": "JavaScript",
+      "target": "Rust",
+      "weight": 3
+    },
+    {
+      "source": "AWS",
+      "target": "Terraform",
+      "weight": 5
+    },
+    {
+      "source": "ChatGPT",
+      "target": "Node.js",
+      "weight": 4
+    },
+    {
+      "source": "Angular",
+      "target": "Vue",
+      "weight": 7
+    },
+    {
+      "source": "MySQL",
+      "target": "Python",
+      "weight": 2
+    },
+    {
+      "source": "Azure",
+      "target": "DevOps",
+      "weight": 4
+    },
+    {
+      "source": "AWS",
+      "target": "Next.js",
+      "weight": 2
+    },
+    {
+      "source": "Laravel",
+      "target": "React",
+      "weight": 5
+    },
+    {
+      "source": "Serverless",
+      "target": "TypeScript",
+      "weight": 3
+    },
+    {
+      "source": "React Native",
+      "target": "TypeScript",
+      "weight": 3
+    },
+    {
+      "source": "Angular",
+      "target": "Next.js",
+      "weight": 2
+    },
+    {
+      "source": "C++",
+      "target": "Python",
+      "weight": 4
+    },
+    {
+      "source": "Flutter",
+      "target": "Python",
+      "weight": 4
+    },
+    {
+      "source": "Machine Learning",
+      "target": "Python",
+      "weight": 3
+    },
+    {
+      "source": "Laravel",
+      "target": "Vite",
+      "weight": 2
+    },
+    {
+      "source": "Angular",
+      "target": "Node.js",
+      "weight": 2
+    },
+    {
+      "source": "Node.js",
+      "target": "Vercel",
+      "weight": 3
+    },
+    {
+      "source": "Django",
+      "target": "React",
+      "weight": 2
+    },
+    {
+      "source": "ChatGPT",
+      "target": "JavaScript",
+      "weight": 2
+    },
+    {
+      "source": "C++",
+      "target": "Java",
+      "weight": 3
+    },
+    {
+      "source": "Java",
+      "target": "Spring",
+      "weight": 6
+    },
+    {
+      "source": "JavaScript",
+      "target": "PHP",
+      "weight": 7
+    },
+    {
+      "source": "Docker",
+      "target": "TypeScript",
+      "weight": 3
+    },
+    {
+      "source": "Docker",
+      "target": "Node.js",
+      "weight": 4
+    },
+    {
+      "source": "GitHub",
+      "target": "JavaScript",
+      "weight": 2
+    },
+    {
+      "source": "GitHub",
+      "target": "Python",
+      "weight": 4
+    },
+    {
+      "source": "JavaScript",
+      "target": "Node.js",
+      "weight": 5
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "Vercel",
+      "weight": 3
+    },
+    {
+      "source": "Node.js",
+      "target": "VSCode",
+      "weight": 3
+    },
+    {
+      "source": "Git",
+      "target": "VSCode",
+      "weight": 2
+    },
+    {
+      "source": "MySQL",
+      "target": "PHP",
+      "weight": 8
+    },
+    {
+      "source": "Django",
+      "target": "Docker",
+      "weight": 3
+    },
+    {
+      "source": "Next.js",
+      "target": "TypeScript",
+      "weight": 6
+    },
+    {
+      "source": "AWS",
+      "target": "Python",
+      "weight": 2
+    },
+    {
+      "source": "AWS",
+      "target": "GitHub",
+      "weight": 4
+    },
+    {
+      "source": "Next.js",
+      "target": "Tailwind",
+      "weight": 3
+    },
+    {
+      "source": "React",
+      "target": "Vercel",
+      "weight": 2
+    },
+    {
+      "source": "Azure",
+      "target": "Linux",
+      "weight": 2
+    },
+    {
+      "source": "Java",
+      "target": "Node.js",
+      "weight": 2
+    },
+    {
+      "source": "Node.js",
+      "target": "Spring",
+      "weight": 2
+    },
+    {
+      "source": "Rust",
+      "target": "TypeScript",
+      "weight": 4
+    },
+    {
+      "source": "JavaScript",
+      "target": "React",
+      "weight": 7
+    },
+    {
+      "source": "JavaScript",
+      "target": "Laravel",
+      "weight": 2
+    },
+    {
+      "source": "Next.js",
+      "target": "Node.js",
+      "weight": 3
+    },
+    {
+      "source": "Git",
+      "target": "Linux",
+      "weight": 3
+    },
+    {
+      "source": "Angular",
+      "target": "Java",
+      "weight": 2
+    },
+    {
+      "source": "Deno",
+      "target": "Node.js",
+      "weight": 5
+    },
+    {
+      "source": "Firebase",
+      "target": "React",
+      "weight": 5
+    },
+    {
+      "source": "Azure",
+      "target": "Python",
+      "weight": 2
+    },
+    {
+      "source": "Java",
+      "target": "SQL",
+      "weight": 2
+    },
+    {
+      "source": "Azure",
+      "target": "C#",
+      "weight": 2
+    },
+    {
+      "source": "AWS",
+      "target": "Linux",
+      "weight": 2
+    },
+    {
+      "source": "C#",
+      "target": "Linux",
+      "weight": 3
+    },
+    {
+      "source": "Laravel",
+      "target": "Vue",
+      "weight": 3
+    },
+    {
+      "source": "Serverless",
+      "target": "Vercel",
+      "weight": 3
+    },
+    {
+      "source": "Vercel",
+      "target": "Vue",
+      "weight": 2
+    },
+    {
+      "source": "Docker",
+      "target": "GCP",
+      "weight": 2
+    },
+    {
+      "source": "Vite",
+      "target": "Vue",
+      "weight": 3
+    },
+    {
+      "source": "Docker",
+      "target": "MySQL",
+      "weight": 3
+    },
+    {
+      "source": "Vercel",
+      "target": "Vite",
+      "weight": 3
+    },
+    {
+      "source": "Firebase",
+      "target": "JavaScript",
+      "weight": 2
+    },
+    {
+      "source": "Django",
+      "target": "Flask",
+      "weight": 2
+    },
+    {
+      "source": "Java",
+      "target": "Kotlin",
+      "weight": 2
+    },
+    {
+      "source": "Angular",
+      "target": "TypeScript",
+      "weight": 3
+    },
+    {
+      "source": "Flask",
+      "target": "Python",
+      "weight": 2
+    },
+    {
+      "source": "ChatGPT",
+      "target": "Python",
+      "weight": 4
+    },
+    {
+      "source": "ChatGPT",
+      "target": "React Native",
+      "weight": 2
+    },
+    {
+      "source": "Java",
+      "target": "Rust",
+      "weight": 2
+    },
+    {
+      "source": "JavaScript",
+      "target": "Linux",
+      "weight": 2
+    },
+    {
+      "source": "Laravel",
+      "target": "MongoDB",
+      "weight": 2
+    },
+    {
+      "source": "PHP",
+      "target": "TypeScript",
+      "weight": 2
+    },
+    {
+      "source": "MySQL",
+      "target": "SQL",
+      "weight": 2
+    },
+    {
+      "source": "JavaScript",
+      "target": "Vue",
+      "weight": 3
+    },
+    {
+      "source": "Vercel",
+      "target": "Webpack",
+      "weight": 2
+    }
+  ],
+  "trending": [
+    {
+      "label": "JavaScript",
+      "recentCount": 8,
+      "previousCount": 4,
+      "growthPct": 100
+    },
+    {
+      "label": "Rust",
+      "recentCount": 15,
+      "previousCount": 15,
+      "growthPct": 0
+    },
+    {
+      "label": "React Native",
+      "recentCount": 2,
+      "previousCount": 2,
+      "growthPct": 0
+    },
+    {
+      "label": "ChatGPT",
+      "recentCount": 9,
+      "previousCount": 10,
+      "growthPct": -10
+    },
+    {
+      "label": "Java",
+      "recentCount": 6,
+      "previousCount": 8,
+      "growthPct": -25
+    },
+    {
+      "label": "GitHub",
+      "recentCount": 13,
+      "previousCount": 18,
+      "growthPct": -28
+    },
+    {
+      "label": "Git",
+      "recentCount": 5,
+      "previousCount": 7,
+      "growthPct": -29
+    },
+    {
+      "label": "PHP",
+      "recentCount": 4,
+      "previousCount": 6,
+      "growthPct": -33
+    },
+    {
+      "label": "TypeScript",
+      "recentCount": 7,
+      "previousCount": 11,
+      "growthPct": -36
+    },
+    {
+      "label": "Linux",
+      "recentCount": 13,
+      "previousCount": 22,
+      "growthPct": -41
+    },
+    {
+      "label": "Python",
+      "recentCount": 6,
+      "previousCount": 11,
+      "growthPct": -45
+    },
+    {
+      "label": "IA/LLM",
+      "recentCount": 138,
+      "previousCount": 262,
+      "growthPct": -47
+    },
+    {
+      "label": "DevOps",
+      "recentCount": 1,
+      "previousCount": 2,
+      "growthPct": -50
+    },
+    {
+      "label": "AWS",
+      "recentCount": 2,
+      "previousCount": 4,
+      "growthPct": -50
+    },
+    {
+      "label": "C#",
+      "recentCount": 1,
+      "previousCount": 2,
+      "growthPct": -50
+    }
+  ],
+  "recentMonths": [
+    "2026-08",
+    "2026-09"
+  ],
+  "previousMonths": [
+    "2026-06",
+    "2026-07"
+  ],
+  "dateRange": {
+    "from": "2022-05-06T18:11:22.451Z",
+    "to": "2026-09-10T00:17:11.093Z"
+  }
+}
