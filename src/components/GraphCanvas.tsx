@@ -1,5 +1,5 @@
 import { DataSet } from 'vis-data';
-import { Network } from 'vis-network';
+import { Network, type Edge, type Node } from 'vis-network';
 import { useEffect, useRef, useState } from 'react';
 
 import type { TrendNode, TrendEdge } from '../types';
@@ -26,7 +26,7 @@ export function GraphCanvas({ nodes, edges }: GraphCanvasProps) {
     const maxCount = Math.max(...nodes.map((n) => n.count));
     const nodeById = new Map(nodes.map((n) => [n.id, n]));
 
-    const visNodes = new DataSet(
+    const visNodes = new DataSet<Node>(
       nodes.map((n) => {
         const intensity = 0.5 + 0.5 * (n.count / maxCount);
         return {
@@ -45,8 +45,7 @@ export function GraphCanvas({ nodes, edges }: GraphCanvasProps) {
     );
 
     const validEdges = edges.filter((e) => nodeById.has(e.source) && nodeById.has(e.target));
-    const maxWeight = Math.max(...validEdges.map((e) => e.weight), 1);
-    const visEdges = new DataSet(
+    const visEdges = new DataSet<Edge>(
       validEdges.map((e) => ({
         from: e.source,
         to: e.target,
