@@ -34,12 +34,12 @@ export function GraphCanvas({ nodes, edges }: GraphCanvasProps) {
           label: n.label,
           value: n.count,
           color: {
-            background: `rgba(255, ${Math.round(179 * intensity)}, 0, ${0.85 * intensity + 0.15})`,
-            border: 'rgba(255, 217, 140, 0.9)',
-            highlight: { background: '#ffd98c', border: '#fff2cf' },
-            hover: { background: '#ffcf5c', border: '#fff2cf' },
+            background: `rgba(${Math.round(28 + 62 * intensity)}, ${Math.round(63 + 146 * intensity)}, ${Math.round(87 + 168 * intensity)}, ${0.85 * intensity + 0.15})`,
+            border: 'rgba(173, 230, 255, 0.9)',
+            highlight: { background: '#8fe3ff', border: '#e6f7ff' },
+            hover: { background: '#7fdcff', border: '#e6f7ff' },
           },
-          font: { color: '#ece7d6', face: 'IBM Plex Mono', size: 13, strokeWidth: 3, strokeColor: '#0b0c0a' },
+          font: { color: '#dbe9f5', face: 'IBM Plex Mono', size: 13, strokeWidth: 3, strokeColor: '#08111d' },
         };
       }),
     );
@@ -50,7 +50,7 @@ export function GraphCanvas({ nodes, edges }: GraphCanvasProps) {
         from: e.source,
         to: e.target,
         value: e.weight,
-        color: { color: 'rgba(122, 90, 0, 0.55)', highlight: '#ffb300', hover: '#ffb300' },
+        color: { color: 'rgba(28, 63, 87, 0.65)', highlight: '#5ad1ff', hover: '#5ad1ff' },
         smooth: { enabled: true, type: 'continuous', roundness: 0.2 },
       })),
     );
@@ -63,7 +63,7 @@ export function GraphCanvas({ nodes, edges }: GraphCanvasProps) {
           shape: 'dot',
           scaling: { min: 8, max: 46 },
           borderWidth: 1.5,
-          shadow: { enabled: true, color: 'rgba(255,179,0,0.35)', size: 14, x: 0, y: 0 },
+          shadow: { enabled: true, color: 'rgba(90,209,255,0.35)', size: 14, x: 0, y: 0 },
         },
         edges: {
           scaling: { min: 0.6, max: 5 },
@@ -109,10 +109,10 @@ export function GraphCanvas({ nodes, edges }: GraphCanvasProps) {
     <div className="relative h-full w-full">
       <div ref={containerRef} className="h-full w-full" />
 
-      <div className="pointer-events-none absolute bottom-4 left-4 min-w-[220px] rounded border border-amber-dim/40 bg-ink/80 px-4 py-3 font-mono text-xs backdrop-blur-sm">
+      <div className="pointer-events-none absolute bottom-4 left-4 min-w-[220px] rounded border border-accent-dim/40 bg-ink/80 px-4 py-3 font-mono text-xs backdrop-blur-sm">
         {hover ? (
           <div className="rise-in">
-            <div className="text-amber text-shadow-glow text-sm font-semibold">{hover.label}</div>
+            <div className="text-accent text-shadow-glow text-sm font-semibold">{hover.label}</div>
             <div className="text-paper-dim mt-1">{hover.count} posts</div>
             <div className="text-paper-dim">{hover.tabcoins} tabcoins</div>
           </div>

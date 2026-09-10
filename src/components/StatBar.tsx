@@ -21,10 +21,10 @@ export function StatBar({
   ];
 
   return (
-    <div className="border-amber-dim/30 flex flex-wrap gap-x-8 gap-y-1 border-b px-6 py-3 font-mono text-xs text-paper-dim">
+    <div className="border-accent-dim/30 flex flex-wrap gap-x-8 gap-y-1 border-b px-6 py-3 font-mono text-xs text-paper-dim">
       {items.map((item) => (
         <span key={item.label}>
-          <span className="text-amber-dim">{item.label}:</span> {item.value}
+          <span className="text-accent-dim">{item.label}:</span> {item.value}
         </span>
       ))}
     </div>

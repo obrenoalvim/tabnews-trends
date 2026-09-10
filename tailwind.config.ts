@@ -5,13 +5,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: '#0b0c0a',
-        'ink-raised': '#15160f',
-        paper: '#ece7d6',
-        'paper-dim': '#8d8a77',
-        amber: '#ffb300',
-        'amber-dim': '#7a5a00',
-        alarm: '#ff5f56',
+        ink: '#08111d',
+        'ink-raised': '#0e1c2e',
+        paper: '#dbe9f5',
+        'paper-dim': '#5c7891',
+        accent: '#5ad1ff',
+        'accent-dim': '#1c3f57',
+        alarm: '#ff6b6b',
       },
       fontFamily: {
         mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],

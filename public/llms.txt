@@ -1,0 +1,13 @@
+# tabnews_trends
+
+> Grafo interativo das tecnologias mais mencionadas no histórico completo do TabNews (comunidade dev brasileira), extraído via API pública. Vite + React + TypeScript, grafo renderizado com vis-network, dados coletados por scripts/fetch-data.mjs.
+
+## Docs
+
+- [README](/README.md): quick-start, como funciona, stack
+- [fetch-data.mjs](/scripts/fetch-data.mjs): pipeline de coleta e extração de keywords
+- [keywords.mjs](/scripts/keywords.mjs): lista de termos técnicos rastreados
+
+## Notes
+
+Extração de termos é heurística por palavra-chave sobre o título dos posts, não NLP. Fonte de dados: API pública do TabNews (https://www.tabnews.com.br/api/v1/contents).
